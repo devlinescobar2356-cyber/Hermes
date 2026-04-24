@@ -1,0 +1,67 @@
+     body { /* Aplica estilos a todo el cuerpo de la página */
+            background-color: #FFFFCC; /* Color de fondo verde muy claro */
+            font-family: Arial, sans-serif; /* Tipo de letra principal */
+            margin: 20px; /* Espacio entre el contenido y los bordes de la página */
+            color: #222; /* Color general del texto */
+        }
+
+        h1 { /* Aplica estilos a los títulos principales */
+            color: red; /* Color verde oscuro para el título principal */
+            text-align: center; /* Centra el título */
+        }
+
+        h2 { /* Aplica estilos a los subtítulos */
+            color: #FF0000; /* Color verde para subtítulos */
+            border-bottom: 2px solid #ffff00; /* Dibuja una línea debajo del subtítulo */
+            padding-bottom: 5px; /* Deja espacio entre el texto y la línea */
+        }
+
+        p { /* Aplica estilos a todos los párrafos */
+            font-size: 18px; /* Tamaño de letra */
+            line-height: 1.5; /* Espacio entre líneas */
+        }
+
+        ul { /* Aplica estilos a listas no ordenadas */
+            font-size: 18px; /* Tamaño de letra de la lista */
+        }
+
+        table { /* Aplica estilos a las tablas */
+            width: 100%; /* La tabla ocupa todo el ancho disponible */
+            border-collapse: collapse; /* Une los bordes de la tabla */
+            margin-top: 10px; /* Deja espacio por encima de la tabla */
+        }
+
+        th, td { /* Aplica estilos a encabezados y celdas */
+            border: 1px solid #990000; /* Borde gris oscuro */
+            padding: 10px; /* Espacio interno dentro de cada celda */
+            text-align: left; /* Alinea el texto a la izquierda */
+        }
+
+        th { /* Aplica estilos solo a los encabezados de tabla */
+            background-color: #990000; /* Color de fondo verde claro */
+        }
+
+        .logo { /* Estilo para las imágenes del logo */
+            display: block; /* Hace que la imagen se comporte como un bloque */
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+            width: 180px; /* Ancho de la imagen */
+            height: auto; /* Mantiene la proporción automática */
+        }
+
+        .indice { /* Estilo para el recuadro del índice */
+            background-color: #e8f5e9; /* Fondo verde claro */
+            padding: 15px; /* Espacio interno */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        .indice a { /* Estilo para los enlaces dentro del índice */
+            display: block; /* Cada enlace ocupa una línea */
+            margin: 5px 0; /* Espacio entre enlaces */
+            color: #cc3300; /* Color del texto del enlace */
+            text-decoration: none; /* Quita el subrayado */
+            font-weight: bold; /* Texto en negrilla */
+        }
+
+        .indice a:hover { /* Estilo cuando el mouse pasa sobre el enlace */
+            text-decoration: underline; /* Subraya el enlace */
+        }
